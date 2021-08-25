@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat,sans-serif'
+
+}
+#title{
+  background-color: #ff4c68;
+  color:white;
+  overflow: hidden;
+
+
+}
+
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position:absolute;
+  left:60%
+}
+
+#features{
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.tick{
+  color:#ff4c68;
+  margin-bottom: 1rem;
+}
+
+.tick:hover{
+  color: red;
+}
+
+#title .container{
+  padding: 3% 1% 7%;
+
+}
+
+
+h1{
+font-family: 'Montserrat,sans-serif';
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight:bold;
+  line-height: 1.5;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+
+}
+
+.row{
+  padding-left: 12px;
+}
+
+
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:lighter;
+
+}
+
+.download-button{
+  margin: 5% 3% 5% 0
+}
+
+
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+}
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px
+}
+
+.card{
+  text-align: center;
+}
+
+#pricing{
+  padding:100px 100px 50px 100px;
+  text-align: center;
+
+
+}
+
+.pricing-column{
+  padding :3% 2%;
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  color: white;
+  padding:50px 400px 0px 400px;
+
+}
+
+.pla{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight:bold;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  padding: 25px;
+}
+
+#cta .download-buttonz{
+  margin: 2% 3% 10% 0
+}
+
+@media screen and (max-width: 1300px){
+ #title{
+   text-align: center;
+ }
+
+ .title-image{
+   position: static;
+   transform: rotate(0);
+   width: 50%;
+ }
+
+ #cta{
+   background-color:#ff4c68;
+   text-align: center;
+   color: white;
+   padding:50px;
+
+ }
+
+ #cta .download-buttonz{
+   margin: 5% 3% 5% 0
+ }
+
+}
